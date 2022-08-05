@@ -1,0 +1,14 @@
+flask
+flask_cors
+pandas
+numpy
+nltk
+joblib
+pandas
+threading
+bs4
+requests
+selenium
+sklearn
+seaborn
+matplotlib
