@@ -1,0 +1,20 @@
+/* .my-nav{    background-color: #6c757d;color: #6c757d;} */
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {background-color: #6c757d;color: white;}
+.nav-link {
+  display: block;
+  padding: .5rem 1rem;
+  color: #6c757d;
+  text-decoration: none;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+  transition-property: color, background-color, border-color;
+  transition-duration: 0.15s, 0.15s, 0.15s;
+  transition-timing-function: ease-in-out, ease-in-out, ease-in-out;
+  transition-delay: 0s, 0s, 0s;
+}
+.nav-link:focus, .nav-link:hover {
+  color: black;
+}
+.my-nav-result{width: min-content;}
+.first-window{
+  width: 100%;
+}
